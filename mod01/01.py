@@ -1,4 +1,4 @@
 nimi = "Anton"
 print(nimi)
 nimi2 =input("Moikka anna nimesi: ")
-print("Moi",  nimi2)
+print("minun ikäni on 18"

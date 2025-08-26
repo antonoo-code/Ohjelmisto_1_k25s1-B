@@ -5,4 +5,4 @@ Korkeus =float(Korkeus_str)
 Pintaala = Kanta * Korkeus
 Piiri = Korkeus *2 + Kanta *2
 print('Suorakulmiosi pintala:'+ str(Pintaala))
-print('Suorakulmiosi piiri:' + str(Piiri))
+print('Suorakulmiosi piiri:' + str(Piiri))w
