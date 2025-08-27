@@ -3,7 +3,7 @@
 #Kunkin arvauksen jälkeen ohjelma tulostaa tekstin Liian suuri arvaus, Liian pieni arvaus tai Oikein.
 #Huomaa, että tietokone ei saa vaihtaa lukuaan arvauskertojen välissä.
 import random
-
+#kysy N arvo käyttäjältä
 oikea = random.randint(1,10)
 
 arvattu = int(input('Arvaa kokonaisluku:'))
