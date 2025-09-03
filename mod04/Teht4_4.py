@@ -10,10 +10,10 @@ arvattu = int(input('Arvaa kokonaisluku:'))
 while oikea != arvattu :
     if oikea < arvattu :
         print('Liian suuri arvaus.')
-
+        arvattu =int(input('Arvaa uudestaan:'))
     elif oikea > arvattu :
         print('Liian pieni arvaus.')
-        int(input('Arvaa uudestaan:'))
+        arvattu = int(input('Arvaa uudestaan:'))
 
     if oikea == arvattu :
         print('Oikein arvattu!')

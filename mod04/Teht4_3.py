@@ -1,11 +1,16 @@
 #Kirjoita ohjelma, joka kysyy käyttäjältä lukuja siihen saakka, kunnes tämä syöttää tyhjän merkkijonon lopetusmerkiksi.
 #Lopuksi ohjelma tulostaa saaduista luvuista pienimmän ja suurimman.
+totuus = True
+tyhja_merkkijono = ''
+luku = []
+while totuus :
+    syöte =input('Syötä luku:')
 
-ohjelma_toimii = True
+    if syöte != tyhja_merkkijono :
+        luku.append(float(syöte))
 
-while ohjelma_toimii :
-    luku= float(input('Syötä luku, älä merkkijonoa:'))
-if luku % 1 == 0:
-    luku = float(input('Syötä luku, älä merkkijonoa:'))
-elif luku = empty.string:
-    ohjelma_toimii = False
+    else:
+        print(f'Isoin syötetty luku: {min(luku)}')
+        print(f'Pienin syötetty luku: {max(luku)}')
+        totuus = False
+
